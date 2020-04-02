@@ -1,0 +1,40 @@
+{
+  "name": "calendar",
+  "displayName": "Reload Calendar",
+  "version": "0.1.0",
+  "homepage": "./",
+  "private": true,
+  "scripts": {
+    "start": "cordova run browser",
+    "dev:android": "cordova run android",
+    "dev:ios": "cordova run ios",
+    "generate:android": "cordova build android",
+    "generate:ios": "cordova build ios",
+    "generate:pwa": "cordova build browser"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "android",
+      "ios",
+      "browser"
+    ]
+  }
+}
