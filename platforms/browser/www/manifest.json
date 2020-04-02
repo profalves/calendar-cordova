@@ -1,11 +1,17 @@
 {
-  "background_color": "#FFF",
+  "dir": "ltr",
+  "name": "Reload Calendar PWA",
+  "short_name": "Reload",
+  "icons": [
+    {
+      "src": "./assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "start_url": "/",
   "display": "standalone",
-  "name": "ReloadCalendar",
-  "short_name": "ReloadCalendar",
-  "version": "com.example.reload",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
-  "author": "Apache Cordova Team",
-  "icons": [],
-  "start_url": "index.html"
+  "orientation": "natural"
 }

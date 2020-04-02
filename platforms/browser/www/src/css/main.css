@@ -90,7 +90,7 @@ h1 {
   border-radius: 15px 15px 0 0 ;
   height: 100vh;
   max-width: 50em;
-  top: 33%
+  top: 30%
 }
    
 .modal__close {
@@ -126,5 +126,47 @@ h1 {
 @media (min-width: 50em) {
   .modal__content {
     margin: 0 auto;
+  }
+}
+
+@media screen and (min-height: 540px) {
+  .modal__content {
+    top: 25% !important;
+  }
+}
+
+@media screen and (min-height: 580px) {
+  .modal__content {
+    top: 30% !important;
+  }
+}
+
+@media screen and ( min-height: 630px ){
+  .modal__content {
+    top: 35% !important;
+  }
+}
+
+@media screen and ( min-height: 700px ){
+  .modal__content {
+    top: 40% !important;
+  }
+}
+
+@media screen and ( min-height: 820px ){
+  .modal__content {
+    top: 50% !important;
+  }
+}
+
+@media screen and ( min-height: 900px ){
+  .modal__content {
+    top: 55% !important;
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  .modal__content {
+    top: 60% !important;
   }
 }
